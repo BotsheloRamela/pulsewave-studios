@@ -1,0 +1,81 @@
+.start-container {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  height: 100%;
+  padding: 40px 0;
+}
+
+.start-container h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 35px;
+}
+
+.start-social-links {
+  display: flex;
+  padding-top: 80px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-social-links li {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  list-style: none;
+  font-size: 35px;
+  margin: auto 45px;
+}
+
+.fa-whatsapp {
+  color: #25d366;
+}
+
+.fa-facebook-f {
+  color: #4267b2;
+}
+
+.fa-linkedin-in {
+  color: #0077b5;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .start-container h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .start-container h2 {
+    font-size: 25px;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 575px) {
+  .start-container h2 {
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 0 5%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .start-container {
+    padding-top: 20px;
+  }
+  .start-container h2 {
+    font-size: 20px;
+    padding-top: 30px;
+    margin: 0 5%;
+  }
+}

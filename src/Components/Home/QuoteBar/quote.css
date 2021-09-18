@@ -1,0 +1,47 @@
+.quote-container {
+  height: 100%;
+  width: 100%;
+  color: black;
+}
+
+.quote-container {
+  padding: 90px 110px;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote-info h1 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  text-align: center;
+}
+
+.quote-info h3 {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 3px;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 25px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .quote-info h1 {
+    letter-spacing: 3px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 575px) {
+  .quote-container {
+    padding: 45px 55px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .quote-info h1 {
+    font-size: 27px;
+  }
+}

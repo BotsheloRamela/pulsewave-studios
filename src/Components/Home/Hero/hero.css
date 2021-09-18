@@ -1,0 +1,130 @@
+.hero-section {
+  height: 100%;
+  width: 100%;
+  background-image: url("../assets/fotis-edit1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-container {
+  padding-top: 70px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-text h2 {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-introduction p {
+  color: white;
+  padding-top: 75px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-btn {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hero-btn a {
+  padding: 0 30px;
+}
+
+.hero-btn button {
+  border: none;
+  outline: none;
+  padding: 14px 21px;
+  background-color: white;
+  border-radius: 11px;
+  color: black;
+  font-size: 21px;
+}
+
+.hero-btn button:hover {
+  background-color: #f05123;
+  color: white;
+  transition: ease-in-out 0.5s;
+}
+
+/* Media Queries */
+@media screen and (min-width: 992px) {
+  .hero-text h2 {
+    text-align: center;
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-text h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .hero-container {
+    justify-content: center;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  .hero-text h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .hero-introduction p {
+    margin: 0 5%;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 575px) {
+  .hero-container {
+    justify-content: center;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  .hero-text h2 {
+    text-align: center;
+    font-size: 35px;
+  }
+  .hero-introduction p {
+    margin: 0 5%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .hero-container {
+    justify-content: center;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+  .hero-text h2 {
+    margin: 0 7%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .hero-introduction p {
+    margin: 0 5%;
+    font-size: 15px;
+  }
+  .hero-btn {
+    flex-direction: column;
+  }
+  .hero-btn a {
+    margin: 5% auto;
+  }
+}

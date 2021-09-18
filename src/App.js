@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './Components/HomePage';
+import Nav from './Components/NavBar/Nav'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import About from './Components/About/About'
+import Footer from './Components/Footer/Footer'
+import Contact from './Components/Contact/Contact'
+import Privacy from './Components/PrivacyPolicy/Privacy'
+import Terms from './Components/Terms&Conditions/Terms'
+import Quote from './Components/Quote/Quote'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Nav />
+      <Switch>
+        <Route path='/' component={Home} exact />
+        <Route path='/about' component={About} />
+        <Route path='/contact-us' component={Contact} />
+        <Route path='/quote' component={Quote} />
+        <Route path='/privacy-policy' component={Privacy} />
+        <Route path='/terms-and-conditions' component={Terms} />
+      </Switch>
     </div>
   );
 }

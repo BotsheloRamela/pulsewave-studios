@@ -1,0 +1,24 @@
+.privacy-container {
+  padding: 30px 50px;
+  background: #2c3e50;
+  color: white;
+}
+
+.privacy-container h1,
+.privacy-container h2 {
+  padding: 20px 0;
+}
+
+.privacy-container h1 {
+  text-decoration: underline;
+}
+
+.privacy-container p,
+.privacy-container li {
+  line-height: 40px;
+}
+
+.privacy-container a {
+  color: gray;
+  text-decoration: underline;
+}

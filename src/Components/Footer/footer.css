@@ -1,0 +1,103 @@
+.footer-container {
+  background: #0f0c29; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #24243e,
+    #302b63,
+    #0f0c29
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding: 20px;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+}
+
+.footer-logo {
+  display: flex;
+  width: auto;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.footer-logo img {
+  object-fit: contain;
+  width: auto;
+  height: 40px;
+}
+
+.footer-logo h1 {
+  font-size: 27px;
+  padding-left: 17px;
+  text-align: center;
+  font-family: "Earth-Obiter";
+  background: linear-gradient(
+    to right,
+    #13c2e9,
+    #3ab6ec,
+    #5ca8e8,
+    #799adf,
+    #908bd0,
+    #a480c7,
+    #b873b9,
+    #c866a6,
+    #de5890,
+    #ee4c73,
+    #f4484f,
+    #f05123
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.footer-link-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-link-list li {
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.footer-link-list li a {
+  text-decoration: underline;
+  color: gray;
+}
+
+.foot-copyright p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+/* Media Quereis */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .footer-link-list {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  .footer-link-list li {
+    padding: 10px 15px;
+  }
+  .footer-logo h1 {
+    padding-left: 10px;
+    font-size: 20px;
+  }
+}

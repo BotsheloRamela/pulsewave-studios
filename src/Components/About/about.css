@@ -1,0 +1,103 @@
+.about-container {
+  position: relative;
+  height: 100%;
+}
+
+.about-hero {
+  color: white;
+  background-image: url("./assets/joshua-reddekopp-GkFQEOubrCo-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 155px;
+}
+.about-hero h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 190px;
+}
+
+.about-info {
+  height: 100vh;
+  padding: 50px 100px;
+}
+
+.about-info div {
+  padding: 30px 0;
+}
+
+.about-info div h2 {
+  text-decoration: underline;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.about-info div p {
+  line-height: 35px;
+  font-size: larger;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .about-hero {
+    height: 60vh;
+  }
+  .about-hero h1 {
+    text-align: center;
+    font-size: 130px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .about-hero {
+    height: 60vh;
+  }
+  .about-hero h1 {
+    text-align: center;
+    font-size: 100px;
+  }
+  .about-info {
+    height: 100vh;
+    padding: 50px 30px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 575px) {
+  .about-hero {
+    height: 60vh;
+  }
+  .about-hero h1 {
+    text-align: center;
+    font-size: 100px;
+  }
+  .about-info {
+    height: 100vh;
+    padding: 50px 60px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .about-hero {
+    height: 40vh;
+  }
+  .about-hero h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 90px;
+  }
+  .about-info {
+    height: 100vh;
+    padding: 50px 30px;
+  }
+  .about-info div p {
+    font-size: 16px;
+  }
+}
