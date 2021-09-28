@@ -1,26 +1,28 @@
 import React from 'react'
 import './products.css'
-import WebPic from '../assets/domenico.jpg'
+import lozad from 'lozad'
 
 function Products() {
+    const observer = lozad();
+    observer.observe();
     return (
         <div className='products-container'>
             <h2>Services</h2>
             <div className="products-cards">
                 <a target="_blank" href="https://wa.me/p/4418697368188832/27672050959">
-                    <div className="p-card products-web">
+                    <div className="p-card products-web lozad">
                         <h3>Website</h3>
                         <p>R2500</p>
                     </div>
                 </a>
                 <a href="https://wa.me/p/3982713365166533/27672050959" target="_blank">
-                    <div className="p-card products-app">
+                    <div className="p-card products-app lozad">
                     <h3>Mobile App</h3>
                     <p>R4500</p>
                     </div>
                 </a>
                 <a href="https://wa.me/p/6375689819122991/27672050959" target="_blank">
-                    <div className="p-card products-design">
+                    <div className="p-card products-design lozad">
                     <h3>Web/App Design</h3>
                     <p>R1000</p>
                     </div>

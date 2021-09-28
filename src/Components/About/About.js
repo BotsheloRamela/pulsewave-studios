@@ -1,11 +1,14 @@
 import React from 'react'
 import './about.css'
 import Footer from '../Footer/Footer'
+import lozad from 'lozad'
 
 function About() {
+    const observer = lozad();
+    observer.observe();
     return (
         <div className="about-container">
-            <div className="about-hero">
+            <div className="about-hero lozad">
                 <h1>About Us</h1>
             </div>
             <div className="about-info">
@@ -18,12 +21,12 @@ function About() {
                     <p>To bring innovation and enhancement in the field of app & web development while helping individuals and businesses develop mobile & web apps that provide an innovative way to connect with customers and attract new customers at a very affordable price. Creating web design solutions that communicate your unique brand identity while being easy-to-use, attractive, and driving results for your business is our goal. We don't just develop websites and apps like everyone else...</p>
                 </div>
                 <div className="about-info-ceo">
-                    <h2>The CEO</h2>
+                    <h2>The CEO (Chief Executive Officer)</h2>
                     <p>Pulsewave Studios was founded by Botshelo Ramela in 2018 when he was just 13 years old. The company's origins date back to an independent studio that developed games. Adding Web & App Development to the company's menu of services led to a change of direction early in 2020 following a change in interest among the CEO. A top goal of our CEO is to offer individuals and businesses web and app solutions that are beneficial.</p>
                 </div>
                 <div className="about-info-coo">
-                    <h2>The COO</h2>
-                    <p>Mohammed Aaqil Khan, Pulsewave Studios' head of marketing and COO, has long been close friends with the CEO. After joining Pulsewave Studios in mid-2021 as Head of Marketing and UI/UX Designer of the company at age 17, he was later promoted to COO for his entrepreneurial spirit and problem solving skills that caught the attention of the CEO.</p>
+                    <h2>The CMO (Chief Marketing Officer)</h2>
+                    <p>Mohamed Aaqil Khan, Pulsewave Studios' head of marketing and CMO, has long been close friends with the CEO. After joining Pulsewave Studios in mid-2021 as Head of Marketing and UI/UX Designer of the company at age 16, he was later promoted to CMO for his entrepreneurial spirit and problem solving skills that caught the attention of the CEO.</p>
                 </div>
             </div>
         </div>

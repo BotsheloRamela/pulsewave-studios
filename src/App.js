@@ -8,8 +8,13 @@ import Contact from './Components/Contact/Contact'
 import Privacy from './Components/PrivacyPolicy/Privacy'
 import Terms from './Components/Terms&Conditions/Terms'
 import Quote from './Components/Quote/Quote'
+import lozad from 'lozad'
 
 function App() {
+
+  const observer = lozad();
+  observer.observe();
+
   return (
     <div className="App">
       

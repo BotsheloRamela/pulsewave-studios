@@ -1,13 +1,16 @@
 import React from 'react'
 import './team.css'
+import lozad from 'lozad'
 
 function MeetTheTeam() {
+    const observer = lozad();
+    observer.observe();
     return (
-        <div className="team-container">
+        <div className="team-container lozad">
             <h2>Meet The Team</h2>
             <div className="team-cards">
                 <div className="team-botshelo team-card">
-                    <div className="pic"></div>
+                    <div className="pic lozad"></div>
                     <h3>Botshelo Ramela</h3>
                     <h4>Founder & CEO</h4>
                     <h4>App Designer & Developer</h4>
@@ -15,9 +18,9 @@ function MeetTheTeam() {
                     <h4>UI/UX Designer</h4>
                 </div>
                 <div className="team-aaqil team-card">
-                    <div className="pic"></div>
+                    <div className="pic lozad"></div>
                     <h3>Mohamed Aaqil Khan</h3>
-                    <h4>COO</h4>
+                    <h4>CMO</h4>
                     <h4>Head of Marketing</h4>
                     <h4>UI/UX Designer</h4>
                 </div>

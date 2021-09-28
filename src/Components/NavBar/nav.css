@@ -103,8 +103,9 @@
     right: 5%;
     cursor: pointer;
     align-items: center;
-    transition: all 0.5s ease-in-out;
-    animation-delay: 0.5s;
+    font-size: 50px;
+    top: 20%;
+    align-items: center;
   }
   .nav-items {
     flex-direction: column;
@@ -134,5 +135,10 @@
   }
   .nav-logo img {
     height: 30px;
+  }
+  .Hamburger {
+    font-size: 35px;
+
+    align-items: center;
   }
 }

@@ -1,11 +1,14 @@
 import React from 'react'
 import './hero.css'
 import {Link} from "react-router-dom";
+import lozad from 'lozad'
 
 function Home() {
+    const observer = lozad();
+    observer.observe();
     return (
         <div>
-            <div className='hero-section'>
+            <div className='hero-section lozad'>
                 <div className='hero-container'>
                     <div className='hero-text'>
                         <div className='hero-text'>

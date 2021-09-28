@@ -22,7 +22,7 @@
 }
 
 .products-web {
-  background-image: url("./assets//Web.png");
+  background-image: url("./assets/Web.webp");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -31,7 +31,7 @@
 }
 
 .products-app {
-  background-image: url("./assets/App.png");
+  background-image: url("./assets/App.webp");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -40,7 +40,7 @@
 }
 
 .products-design {
-  background-image: url("./assets/UI.png");
+  background-image: url("./assets/UI.webp");
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: contain;
