@@ -13,16 +13,14 @@ function MeetTheTeam() {
                     <div className="pic lozad"></div>
                     <h3>Botshelo Ramela</h3>
                     <h4>Founder & CEO</h4>
-                    <h4>App Designer & Developer</h4>
-                    <h4>Web Designer & Developer</h4>
+                    <h4>Software Engineer</h4>
+                    <h4>Web & App Developer</h4>
                     <h4>UI/UX Designer</h4>
                 </div>
                 <div className="team-aaqil team-card">
                     <div className="pic lozad"></div>
                     <h3>Mohamed Aaqil Khan</h3>
-                    <h4>CMO</h4>
-                    <h4>Head of Marketing</h4>
-                    <h4>UI/UX Designer</h4>
+                    <h4>Marketing</h4>
                 </div>
             </div>
         </div>

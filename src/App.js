@@ -9,6 +9,7 @@ import Privacy from './Components/PrivacyPolicy/Privacy'
 import Terms from './Components/Terms&Conditions/Terms'
 import Quote from './Components/Quote/Quote'
 import lozad from 'lozad'
+import ScrollToTop from './ScrollToTop';
 
 function App() {
 
@@ -19,8 +20,9 @@ function App() {
     <div className="App">
       
       <Nav />
+      <ScrollToTop />
       <Switch>
-        <Route path='/' component={Home} exact />
+        <Route exact path='/' component={Home} />
         <Route path='/about' component={About} />
         <Route path='/contact-us' component={Contact} />
         <Route path='/quote' component={Quote} />

@@ -6,6 +6,7 @@ import WhyUs from './Home/WhyUs/WhyUs'
 import MeetTheTeam from './Home/Team/MeetTheTeam'
 import Quote from './Home/QuoteBar/Quote'
 import Footer from './Footer/Footer'
+import TechnologiesWeUse from './Home/Technologies/TechnlogiesWeUse'
 
 function HomePage() {
     return (
@@ -14,6 +15,7 @@ function HomePage() {
             <Start />
             <Products />
             <WhyUs />
+            <TechnologiesWeUse />
             <MeetTheTeam />
             <Quote />
             <Footer />

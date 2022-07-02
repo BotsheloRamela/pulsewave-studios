@@ -1,93 +1,67 @@
 .quote-form-container {
+  background-color: #8025bc;
+  background-image: radial-gradient(
+      at 47% 33%,
+      hsl(187.09, 100%, 50%) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 82% 65%, hsl(218, 39%, 11%) 0, transparent 55%);
   height: 100%;
-  background: #ef32d9; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #89fffd,
-    #ef32d9
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #89fffd,
-    #ef32d9
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   padding: 100px;
 }
 
 .quote-card {
-  backdrop-filter: blur(19px) saturate(141%);
-  -webkit-backdrop-filter: blur(19px) saturate(141%);
-  background-color: rgba(86, 46, 150, 0.61);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
+  width: 85%;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 30px;
-  border-radius: 20px;
-  max-width: 800px;
-}
-
-.quote-card-form {
-  background-color: rgba(202, 202, 202, 0.644);
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
   align-items: center;
-  padding: 20px 0;
-  max-width: 80%;
-}
-
-.quote-card-form .field {
-  background-color: white;
-  border-radius: 20px;
-}
-
-.quote-card-form button {
-  border-radius: 20px;
-}
-
-.quote-p-btn {
-  font-size: 15px;
-  padding-top: 25px;
-  width: 60%;
-  margin: 0 auto;
-}
-
-.quote-card-socials ul {
-  display: flex;
-  align-items: center;
-}
-
-.quote-card-socials ul li {
-  display: flex;
-  flex-direction: row;
   text-align: center;
-  list-style: none;
-  font-size: 35px;
-  padding: 0 20px;
+  margin: 0 auto;
+  color: black;
 }
 
-.email-h4 {
-  font-size: 20px;
-  padding: 60px 0;
+.quote-card h1 {
+  position: relative;
+  padding: 10px 0;
+  margin: 10px 0;
+  font-size: 30px;
+  color: white;
+}
+.quote-card p {
+  color: white;
+  font-size: 10px;
+  margin-bottom: 15px;
 }
 
-.quote-card-socials h4 {
-  display: flex;
-  align-items: center;
+.quote-card-form p {
+  margin-top: 15px;
+  color: white;
+  font-size: 10px;
 }
 
-.quote-card-socials i {
-  padding-right: 10px;
+.quote-card h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  height: 4px;
+  width: 50px;
+  border-radius: 2px;
+  background-color: rgb(0, 255, 136);
 }
 
-.field {
-  width: 80%;
+.fieldQ {
+  width: 60%;
   padding: 0.5rem 1rem;
-  background-color: rgba(161, 161, 161, 0.6);
+  border-radius: 10px;
+  background-color: white;
   font-size: 1.1rem;
   margin-bottom: 22px;
   transition: 0.3s;
@@ -99,53 +73,46 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.quote-card-socials {
-  padding: 20px 0;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+.area {
+  max-height: 80px;
+}
+.btn {
+  width: 60%;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
+  background-color: rgb(0, 255, 136);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: 0.3s;
+  color: #fff;
+  margin-bottom: 15;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  background-color: #27ae60;
 }
 
 /* Media Queries */
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 992px) {
   .quote-form-container {
-    padding: 100px 0;
-  }
-  .quote-card {
-    max-width: 600px;
-  }
-}
-
-@media screen and (min-width: 576px) and (max-width: 767px) {
-  .quote-form-container {
-    padding: 100px 0;
-  }
-  .quote-card {
-    max-width: 500px;
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 575px) {
-  .quote-form-container {
-    padding: 100px 0;
-  }
-  .quote-card {
-    max-width: 400px;
-    padding: 30px 5px;
-  }
-  .quote-card-form {
-    max-width: 500px;
+    height: 100%;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .quote-form-container {
-    padding: 100px 20px;
+    padding: 100px 0;
   }
-  .quote-card {
-    max-width: 400px;
+  .fieldQ {
+    width: 80%;
   }
-  .quote-card-form {
-    max-width: 600px;
+  .btn {
+    width: 80%;
+  }
+  .quote-card p,
+  .quote-card-form p {
+    font-size: 7px;
   }
 }

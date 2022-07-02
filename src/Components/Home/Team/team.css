@@ -1,6 +1,6 @@
 .team-container {
   height: 100%;
-  background-image: url("./assets/daniel-gregoire-hZe5eOlvqDk-unsplash.webp");
+  background-image: url("./assets/pawel.webp");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -55,7 +55,7 @@
 }
 
 .team-botshelo .pic {
-  background-image: url("./assets/Botshelo.webp");
+  background-image: url("./assets/Botshelo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }

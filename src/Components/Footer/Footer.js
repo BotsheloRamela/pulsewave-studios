@@ -20,7 +20,7 @@ function Footer() {
                 </div>
 
                 <div className="foot-copyright">
-                    <p>Copyright &copy; 2021, Pulsewave Studios. All Rights Reserved.</p>
+                    <p>Copyright &copy; 2022, Pulsewave Studios. All Rights Reserved.</p>
                 </div>
             </footer>
 

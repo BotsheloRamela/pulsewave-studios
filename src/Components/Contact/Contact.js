@@ -27,7 +27,7 @@ function Contact() {
                     <input type="text" required='required' className='field' placeholder='Full Name' name='name'/>
                     <input type="text" required='required' className='field' placeholder='Email Address' name='email'/>
                     <input type="text" className='field' placeholder='Phone Number' name='phone'/>
-                    <textarea required='required' name="" id="" cols="30" rows="10" className='field area' placeholder='Your Message' name='message'></textarea>
+                    <textarea required='required' id="" cols="30" rows="10" className='field area' placeholder='Your Message' name='message'></textarea>
                     <button className='btn' type='submit'>Send</button>
                     <p>By clicking send you agree to our <Link to='/privacy-policy'>Privacy Policy</Link> and <Link to='/terms-and-conditions'>Terms & Conditions</Link></p>
                 </form>
