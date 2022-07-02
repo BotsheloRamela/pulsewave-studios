@@ -20,7 +20,7 @@ function MeetTheTeam() {
                 <div className="team-aaqil team-card">
                     <div className="pic lozad"></div>
                     <h3>Mohamed Aaqil Khan</h3>
-                    <h4>Marketing</h4>
+                    <h4>Marketing Director</h4>
                 </div>
             </div>
         </div>
