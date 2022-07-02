@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15eb5874.chunk.css",
+    "main.js": "/static/js/main.c04e4eee.chunk.js",
+    "main.js.map": "/static/js/main.c04e4eee.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d302cf8a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d302cf8a.js.map",
+    "static/js/2.b32ee37c.chunk.js": "/static/js/2.b32ee37c.chunk.js",
+    "static/js/2.b32ee37c.chunk.js.map": "/static/js/2.b32ee37c.chunk.js.map",
+    "static/js/3.471a2728.chunk.js": "/static/js/3.471a2728.chunk.js",
+    "static/js/3.471a2728.chunk.js.map": "/static/js/3.471a2728.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.15eb5874.chunk.css.map": "/static/css/main.15eb5874.chunk.css.map",
+    "static/js/2.b32ee37c.chunk.js.LICENSE.txt": "/static/js/2.b32ee37c.chunk.js.LICENSE.txt",
+    "static/media/team.css": "/static/media/pawel.870d12aa.webp",
+    "static/media/products.css": "/static/media/Web.2bc97ba6.webp",
+    "static/media/FlutterLogo.0ee20160.png": "/static/media/FlutterLogo.0ee20160.png",
+    "static/media/App.css": "/static/media/earthorbiter.ec02ef2a.ttf",
+    "static/media/PythonLogo.69e84554.png": "/static/media/PythonLogo.69e84554.png",
+    "static/media/ReactLogo.3d3d8a9a.png": "/static/media/ReactLogo.3d3d8a9a.png",
+    "static/media/hero.css": "/static/media/fotis-edit1.2612c54c.webp",
+    "static/media/about.css": "/static/media/joshua-reddekopp-GkFQEOubrCo-unsplash.cd91fa31.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d302cf8a.js",
+    "static/js/2.b32ee37c.chunk.js",
+    "static/css/main.15eb5874.chunk.css",
+    "static/js/main.c04e4eee.chunk.js"
+  ]
+}
