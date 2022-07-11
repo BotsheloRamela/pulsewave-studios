@@ -22,6 +22,11 @@ function MeetTheTeam() {
                     <h3>Mohamed Aaqil Khan</h3>
                     <h4>Marketing Director</h4>
                 </div>
+                <div className="team-khethelo team-card">
+                    <div className="pic lozad"></div>
+                    <h3>Khethelo Nkosi</h3>
+                    <h4>Software Developer</h4>
+                </div>
             </div>
         </div>
     )

@@ -66,6 +66,12 @@
   background-size: cover;
 }
 
+.team-khethelo .pic {
+  background-image: url("./assets/Khethelo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .team-cards {
