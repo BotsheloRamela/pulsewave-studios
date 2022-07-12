@@ -14,7 +14,7 @@ function NavLinks(props) {
                 <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.05}} onClick={() => props.isMobile && props.closeMobileMenu()} className='nav-li'><Link to='/'>Home</Link></motion.li>
                 <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.10}} onClick={() => props.isMobile && props.closeMobileMenu()} className='nav-li'><Link to='/about'>About Us</Link></motion.li>
                 <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.20}} onClick={() => props.isMobile && props.closeMobileMenu()} className='nav-li'><Link to='/contact-us'>Contact Us</Link></motion.li>
-                <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.30}} onClick={() => props.isMobile && props.closeMobileMenu()} className='li-quote'><Link to='/quote'>Get a Quote</Link></motion.li>
+                <motion.li initial={animateFrom} animate={animateTo} transition={{delay: 0.30}} onClick={() => props.isMobile && props.closeMobileMenu()}  className='li-quote'><Link to='/quote' style={{color:'white'}}>Get a Quote</Link></motion.li>
             </ul> 
         </div>
     );
