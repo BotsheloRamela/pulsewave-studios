@@ -1,21 +1,15 @@
 .hero-section {
-  height: 105vh;
   width: 100%;
   background-color: white;
-  background-image: url("../assets/wave.svg");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size:contain;
-  padding-bottom: 200px;
   display: flex;
   justify-content: center;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  position: relative;
 }
 
-
-
 .hero-container {
-  padding-top: 70px;
-  padding-left: 50px;
+  padding-top: 50px;
   display: flex;
   justify-content: center;
 }

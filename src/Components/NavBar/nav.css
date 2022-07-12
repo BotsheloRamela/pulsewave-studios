@@ -65,7 +65,7 @@
 }
 
 .li-quote a {
-  background-color: rgb(0, 209, 157);
+  background-color: #CB34D7;
   border-radius: 20px;
   padding: 7px 15px;
   color: white;
@@ -73,7 +73,7 @@
 
 
 .li-quote a:hover {
-  background-color: #f05123;
+  background-color: #FF6100;
   transition: ease-in-out 0.5s;
   color: white;
 }
@@ -108,7 +108,7 @@
     top: 60px;
     right: 0;
     width: 100%;
-    background-color: white;
+    background-color: rgb(241, 241, 241);
     justify-content: center;
     border-top: 2px solid #908bd0;
   }

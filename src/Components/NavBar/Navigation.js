@@ -10,7 +10,7 @@ function Navigation() {
                 <li className='nav-li'><Link to='/'>Home</Link></li>
                 <li className='nav-li'><Link to='/about'>About Us</Link></li>
                 <li className='nav-li'><Link to='/contact-us'>Contact Us</Link></li>
-                <li className='li-quote'><Link to='/quote'>Get a Quote</Link></li>
+                <li className='li-quote'><Link to='/quote' style={{color:'white'}}>Get a Quote</Link></li>
             </ul>
         </nav>
     );

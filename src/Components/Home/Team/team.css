@@ -1,9 +1,29 @@
 .team-container {
   height: 100%;
-  background-image: url("./assets/pawel.webp");
-  background-size: cover;
+  background-image: url("./assets/back.webp");
+  background-size:cover;
   background-repeat: no-repeat;
   color: white;
+  padding-bottom: 20px;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 30px;
+  background: linear-gradient(to right,  #CB34D7, #FF6100);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+
+}
+
+div.scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: 20px;
 }
 
 .team-container h2 {
@@ -17,12 +37,12 @@
 .team-cards {
   padding: 90px 0;
   display: flex;
-  justify-content: space-evenly;
+  column-gap: 20px;
 }
 
 .team-card {
-  min-width: 400px;
-  min-height: 500px;
+  min-width: 350px;
+  min-height: 300px;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(17, 25, 40, 0.75);
@@ -72,6 +92,12 @@
   background-size: cover;
 }
 
+.team-sean .pic {
+  background-image: url("./assets/Sean.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .team-cards {
@@ -83,7 +109,11 @@
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
+  .team-container{
+    background-position: center center;
+  }
   .team-cards {
+    display: flex;
     flex-direction: column;
   }
   .team-card {
@@ -92,7 +122,11 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 575px) {
+  .team-container{
+    background-position: center center;
+  }
   .team-cards {
+    display: flex;
     flex-direction: column;
   }
   .team-card {
@@ -105,6 +139,7 @@
     font-size: 30px;
   }
   .team-cards {
+    display: flex;
     flex-direction: column;
   }
   .team-card {

@@ -5,7 +5,7 @@
 
 .about-hero {
   color: white;
-  background-image: url("./assets/joshua-reddekopp-GkFQEOubrCo-unsplash.webp");
+  background-image: url("./assets/back.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -21,7 +21,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto auto;
   font-size: 190px;
+  background: linear-gradient(
+    to right,
+    #1600ee,
+    #e323cf,
+    #fd8300
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 .about-info {

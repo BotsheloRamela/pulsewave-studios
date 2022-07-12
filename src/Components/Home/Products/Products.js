@@ -1,12 +1,14 @@
 import React from 'react'
 import './products.css'
 import lozad from 'lozad'
+import Waves from '../assets/wave.svg'
 
 function Products() {
     const observer = lozad();
     observer.observe();
     return (
         <div className='products-container'>
+            
             <h2>Services</h2>
             <div className="products-cards">
                 <a target="_blank" href="https://wa.me/p/4418697368188832/27672050959">

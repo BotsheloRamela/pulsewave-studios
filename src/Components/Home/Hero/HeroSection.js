@@ -1,6 +1,7 @@
 import React from 'react'
 import './hero.css'
-import LogoSymbol from '../assets/LogoSymbol.png'
+import Waves from '../assets/wave.svg'
+import WavesFlipped from '../assets/wave-flipped.svg'
 import {Link} from "react-router-dom";
 import lozad from 'lozad'
 
@@ -37,6 +38,8 @@ function Home() {
                             <Link to='/contact-us'><button >Contact Us</button></Link>
                         </div>
                         
+                        <img src={Waves} alt="" style={{width:'100vw', padding:'0', display:'block'}} />
+                        <img src={Waves} alt="" style={{width:'100vw', padding:'0', transform:'scaleY(-1)', }} />
                     </div>
                 </div>
             </div>
