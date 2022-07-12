@@ -1,7 +1,5 @@
-import React, { Component, useState } from 'react';
 import classes from './nav.css';
 import LogoSymbol from './assets/LogoSymbol.png'
-import {Link} from "react-router-dom";
 import MobileNavigation from './MobileNavigation';
 import Navigation from './Navigation';
 

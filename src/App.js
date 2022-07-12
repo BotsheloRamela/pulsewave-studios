@@ -1,9 +1,8 @@
 import './App.css';
 import Home from './Components/HomePage';
 import Nav from './Components/NavBar/Nav'
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import About from './Components/About/About'
-import Footer from './Components/Footer/Footer'
 import Contact from './Components/Contact/Contact'
 import Privacy from './Components/PrivacyPolicy/Privacy'
 import Terms from './Components/Terms&Conditions/Terms'
@@ -22,12 +21,14 @@ function App() {
       <Nav />
       <ScrollToTop />
       <Switch>
-        <Route exact path='/' component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/contact-us' component={Contact} />
-        <Route path='/quote' component={Quote} />
-        <Route path='/privacy-policy' component={Privacy} />
-        <Route path='/terms-and-conditions' component={Terms} />
+        <div>
+          <Route exact path='/' component={Home} />
+          <Route path='/about' component={About} />
+          <Route path='/contact-us' component={Contact} />
+          <Route path='/quote' component={Quote} />
+          <Route path='/privacy-policy' component={Privacy} />
+          <Route path='/terms-and-conditions' component={Terms} />
+        </div>
       </Switch>
     </div>
   );

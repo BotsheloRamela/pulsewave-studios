@@ -1,13 +1,17 @@
 .hero-section {
-  height: 100%;
+  height: 105vh;
   width: 100%;
-  background-image: url("../assets/fotis-edit1.webp");
+  background-color: white;
+  background-image: url("../assets/wave.svg");
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:contain;
   padding-bottom: 200px;
   display: flex;
   justify-content: center;
 }
+
+
 
 .hero-container {
   padding-top: 70px;
@@ -16,17 +20,18 @@
   justify-content: center;
 }
 
-.hero-text h2 {
-  color: white;
-  font-size: 50px;
+.hero-text h4 {
+  color: black;
+  font-size: 30px;
   letter-spacing: 5px;
   display: flex;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .hero-introduction p {
-  color: white;
-  padding-top: 75px;
+  color: black;
+  padding-top: 60px;
   text-align: center;
   line-height: 24px;
   font-size: 20px;
@@ -35,7 +40,7 @@
 }
 
 .hero-btn {
-  padding-top: 100px;
+  padding-top: 60px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -45,44 +50,124 @@
   padding: 0 30px;
 }
 
-.hero-btn button {
+.hero-btn button:first-child {
   border: none;
   outline: none;
   padding: 14px 21px;
-  background-color: white;
+  background-color: #CB34D7;
   border-radius: 11px;
-  color: black;
+  color: white;
   font-size: 21px;
 }
 
-.hero-btn button:hover {
-  background-color: #f05123;
+.hero-btn button:last-child {
+  border: none;
+  outline: none;
+  padding: 14px 21px;
+  background-color: #FF6100;
+  border-radius: 30px;
   color: white;
-  transition: ease-in-out 0.5s;
+  font-size: 21px;
 }
+
+
+.nav-logo2 {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-logo2 h1 {
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  font-family: "Earth-Obiter";
+  background: linear-gradient(
+    to right,
+    #13c2e9,
+    #3ab6ec,
+    #5ca8e8,
+    #799adf,
+    #908bd0,
+    #a480c7,
+    #b873b9,
+    #c866a6,
+    #de5890,
+    #ee4c73,
+    #f4484f,
+    #f05123
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.nav-logo2 img {
+  object-fit: contain;
+  width: auto;
+  height: 60px;
+  padding-left: 30px;
+}
+
+.start-social-links {
+  display: flex;
+  padding-top: 60px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.start-social-links li {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  list-style: none;
+  font-size: 35px;
+  margin: auto 45px;
+}
+
+.fa-whatsapp {
+  color: #25d366;
+}
+
+.fa-facebook-f {
+  color: #4267b2;
+}
+
+.fa-linkedin-in {
+  color: #0077b5;
+}
+
+
 
 /* Media Queries */
 @media screen and (min-width: 992px) {
-  .hero-text h2 {
+  .hero-text h4 {
     text-align: center;
     font-size: 50px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .hero-text h2 {
+  .hero-text h4 {
     text-align: center;
     font-size: 40px;
   }
 }
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
+  .hero-section{
+    background-size: 100% 500px;
+  }
+
   .hero-container {
     justify-content: center;
     margin: 0 auto;
     padding-left: 0;
   }
-  .hero-text h2 {
+  .hero-text h4 {
     text-align: center;
     font-size: 40px;
   }
@@ -97,7 +182,7 @@
     margin: 0 auto;
     padding-left: 0;
   }
-  .hero-text h2 {
+  .hero-text h4 {
     text-align: center;
     font-size: 35px;
   }
@@ -112,7 +197,7 @@
     margin: 0 auto;
     padding-left: 0;
   }
-  .hero-text h2 {
+  .hero-text h4 {
     margin: 0 7%;
     text-align: center;
     font-size: 25px;

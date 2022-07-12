@@ -9,9 +9,9 @@ function MobileNavigation() {
 
     const [open, setOpen] = useState(false);
 
-    const hamburgerIcon = <BiMenuAltRight className="Hamburger" color="white" onClick={() => setOpen(true)}/>;
+    const hamburgerIcon = <BiMenuAltRight className="Hamburger" color="black" onClick={() => setOpen(true)}/>;
 
-    const closeIcon = <IoMdClose className="Hamburger" color="white" onClick={() => setOpen(!true)}/>
+    const closeIcon = <IoMdClose className="Hamburger" color="black" onClick={() => setOpen(!true)}/>
 
     const closeMobileMenu = () => setOpen(false); 
 
