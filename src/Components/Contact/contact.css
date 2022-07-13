@@ -1,15 +1,11 @@
 .contact-container {
   background: #e8cbc0; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to left,
-    #636fa4,
-    #e8cbc0
-  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-    to left,
-    #636fa4,
-    #e8cbc0
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    to right,
+    #1600ee,
+    #e323cf,
+    #fd8300
+  );
   height: 100%;
   padding: 100px;
 }
@@ -99,8 +95,11 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .contact-container {
     padding: 100px 0;
+  }
+  .field{
+    width: 80%;
   }
 }

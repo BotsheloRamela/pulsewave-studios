@@ -1,20 +1,18 @@
 .team-container {
   height: 100%;
-  /* background-image: url("./assets/back.webp"); */
   background-size:cover;
   background-repeat: no-repeat;
   color: white;
   padding-bottom: 20px;
   background-position: center center;
-  /* background-attachment: fixed; */
-
   overflow: hidden; 
   position: relative;
-  
+  background-image: url("./assets/back.webp");
+  background-repeat: no-repeat;
   
 }
 
-.team-container::before {
+/* .team-container::before {
   background-image: url("./assets/back.webp");
   background-repeat: no-repeat;
   background-position: center center;
@@ -22,12 +20,12 @@
   content: '';
   height: 100%;
   left: 0;
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
   will-change: transform;
   z-index: -1;
-}
+} */
 
 
 ::-webkit-scrollbar{
@@ -103,11 +101,11 @@
   background-size: cover;
 }
 
-.team-aaqil .pic {
+/* .team-aaqil .pic {
   background-image: url("./assets/Aaqil.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 .team-khethelo .pic {
   background-image: url("./assets/Khethelo.jpeg");

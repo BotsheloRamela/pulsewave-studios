@@ -1,11 +1,10 @@
 .about-container {
   position: relative;
-  height: 100%;
 }
 
 .about-hero {
   color: white;
-  background-image: url("./assets/back.webp");
+  background-image: url("./assets/back.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,12 +15,11 @@
   justify-content: center;
   position: relative;
   padding-bottom: 155px;
+
 }
 .about-hero h1 {
+  margin-top: 10%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto auto;
   font-size: 190px;
   background: linear-gradient(
     to right,

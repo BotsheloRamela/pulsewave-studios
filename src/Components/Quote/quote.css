@@ -1,11 +1,11 @@
 .quote-form-container {
   background-color: #8025bc;
-  background-image: radial-gradient(
-      at 47% 33%,
-      hsl(187.09, 100%, 50%) 0,
-      transparent 59%
-    ),
-    radial-gradient(at 82% 65%, hsl(218, 39%, 11%) 0, transparent 55%);
+  background: linear-gradient(
+    to right,
+    #1600ee,
+    #e323cf,
+    #fd8300
+  );
   height: 100%;
   padding: 100px;
 }
