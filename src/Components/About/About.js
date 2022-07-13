@@ -14,7 +14,7 @@ function About() {
             <div className="about-info">
                 <div className="about-info-who">
                     <h2>Who Are We?</h2>
-                    <p>Based in Johannesburg, Gauteng, South Africa, we are a Web and App development company. Because the business is conducted entirely online, we do not have a physical address. The Pulsewave Studios team is comprised of two individuals with experience in development and design who are devoted to providing affordable services for individuals and businesses. </p>
+                    <p>Based in Johannesburg, Gauteng, South Africa, we are a Web and App development company. Because the business is conducted entirely online, we do not have a physical address. The Pulsewave Studios team is comprised of individuals with experience in Software Development and design who are devoted to providing affordable services for individuals and businesses. </p>
                 </div>
                 <div className="about-info-vision">
                     <h2>Our Vision</h2>
