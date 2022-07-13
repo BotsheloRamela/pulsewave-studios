@@ -24,10 +24,10 @@ function About() {
                     <h2>The CEO (Chief Executive Officer)</h2>
                     <p>Pulsewave Studios was founded by Botshelo Ramela in 2018 when he was just 13 years old. The company's origins date back to an independent studio that developed games. Adding Web & App Development to the company's menu of services led to a change of direction early in 2020 following a change in interest among the CEO. A top goal of our CEO is to offer individuals and businesses web and app solutions that are beneficial.</p>
                 </div>
-                <div className="about-info-coo">
+                {/* <div className="about-info-coo">
                     <h2>The Marketing Director</h2>
                     <p>Mohamed Aaqil Khan, Pulsewave Studios' Marketing Director, has long been close friends with the CEO. After joining Pulsewave Studios in mid-2021 as Content Lead of the company at age 16, he was later promoted to Marketing Director for his entrepreneurial spirit and problem solving skills that caught the attention of the CEO.</p>
-                </div>
+                </div> */}
             </div>
         </div>
     )
