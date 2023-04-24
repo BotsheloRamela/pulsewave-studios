@@ -1,3 +1,6 @@
+# About the Pulsewave Studios website
+A modern and dynamic website built using React.js for Pulsewave Studios, a software development company. The website showcases the company's expertise and services, with a sleek and intuitive design that is both aesthetically pleasing and easy to navigate. Users can explore the site's various sections, learn about the company's team and projects, and contact Pulsewave Studios for inquiries or project requests. The website also features responsive design, ensuring optimal user experience across various devices and screen sizes. Check it out and see what Pulsewave Studios has to offer!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
